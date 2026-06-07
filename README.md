@@ -56,10 +56,10 @@ https://github.com/user-attachments/assets/c0f3e2b5-2a2e-4d7f-a7b9-1e9e7d03c82f
 
 ## ✨ 效果预览
 
-| 运行前 | 运行后 |
-|:-----:|:------:|
-| 普通终端窗口 | 四只小猫同步跳舞！ |
-| ![普通终端](https://via.placeholder.com/400x200/1a1a2e/eaeaea?text=开!始!运!行!) | ![运行效果](pixel_animation/cat_pixel_animation.gif) |
+| 运行效果 |
+|:--------:|
+| ![终端截图](assets/screenshot.png) |
+| *四只像素小猫在终端里同步跳舞* |
 
 > ⚡ 动画会自动适配你的终端窗口大小，全屏体验更佳！
 
@@ -223,6 +223,9 @@ dancing-kitten/
 ├── .gitignore                # Git 忽略规则
 ├── LICENSE                   # MIT 开源许可证
 ├── README.md                 # 👈 你现在看的这个文件
+│
+├── assets/                   # 🖼️ 资源文件
+│   └── screenshot.png        #    运行效果截图
 │
 ├── pixel_animation/          # 🎯 核心代码目录
 │   ├── animation.py          #    主程序（所有魔法在这里）
